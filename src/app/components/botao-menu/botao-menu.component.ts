@@ -1,0 +1,18 @@
+import {ChangeDetectionStrategy, Component, inject, OnInit} from "@angular/core";
+import {SpotifyService} from "../../services/spotify.service";
+import {Router} from '@angular/router';
+
+@Component({
+  selector: 'app-botao-menu',
+  standalone: true,
+  imports: [],
+  templateUrl: './botao-menu.component.html',
+  styleUrl: './botao-menu.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class BotaoMenuComponent implements OnInit {
+
+  ngOnInit(): void {}
+
+
+}
